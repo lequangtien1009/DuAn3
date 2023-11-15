@@ -209,6 +209,7 @@ a {
 .service-item:hover {
   position: relative; /* cho nen nam tren*/
   box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.09);
+  cursor: pointer;
 }
 
 /* Tac dong len khi re chuot vao */
