@@ -464,3 +464,53 @@ a {
   margin-top: 38px;
   justify-content: center;
 }
+
+/* ================================Install Mobile ========================== */
+.install__inner {
+  /* khoảng cách các khoi: tren 180px, trai phai 0, duoi 85px */
+  margin: 180px 0px 85px;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* trên duoi = 0, trai phai 70px */
+  padding: 0 70px;
+
+  height: 427px;
+  border-radius: 4px;
+  background: #2e80ce;
+}
+
+.install__img {
+  position: absolute;
+  bottom: 0px;
+
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+}
+.install__content {
+  min-width: 586px;
+}
+
+.install__heading {
+  text-align: left;
+  color: #fff;
+  max-width: 489px;
+}
+.install__desc {
+  margin-top: 18px;
+  max-width: 586px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.67; /* 166.667% */
+}
+.install__row {
+  margin-top: 38px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
